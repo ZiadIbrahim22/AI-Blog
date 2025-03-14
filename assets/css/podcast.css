@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+:root {
+    --bgc-black-80: #141414;
+    --bgc-black-70: #1A1A1A;
+    --color-black-25: #7E7E81;
+    --color-yellow: #FFD11A;
+    --color-white: #fff;
+    --border-color: #7e7e812c;
+}
+
+body {
+    background-color: var(--bgc-black-80);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.headline {
+    text-align: left;
+    padding: 50px 0;
+    margin-top: 150px;
+}
+
+.headline p {
+    color: #cccccc9c;
+    font-size: 1rem;
+}
+
+
+.inner-shadow {
+    box-shadow: inset 0 -75px 80px 0 #000;
+}
+
+.section-7 .left {
+    height: inherit;
+}
+
+.section-7 .right h5.col-3 {
+    font-size: 1.5rem;
+}
+
+.section-7 .left .left-image {
+    width: 5rem;
+    height: 5rem;
+}
+
+
+.section-7 .left .btnn {
+    width: 100%;
+    color: var(--color-black-25);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    background-color: var(--bgc-black-70);
+    height: 3rem;
+    transition: .5s;
+}
+
+.section-7 .left .btnn:hover {
+    border-color: var(--color-yellow);
+}
+
+.section-7 .left .btnn img {
+    width: 1rem;
+    height: 1rem;
+}
+
+
+.section-7 .left .left-lower {
+    background-color: var(--bgc-black-70);
+    border: 1px solid var(--border-color);
+}
+
+.section-7 .left .left-lower p {
+    font-size: 0.8rem;
+}
+
+.section-7 .left .left-lower h5 {
+    font-size: 1rem;
+}
+
+.section-7 {
+    background-color: var(--bgc-black-80);
+}
+
+.section-7 p {
+    color: var(--color-black-25);
+}
+
+.section-7 .right .details__left,
+.section-7 .right .details__right,
+.section-7 .right .detailes__lower {
+    background-color: var(--bgc-black-70);
+}
+
+.section-7--2 {
+    border-top: 1px solid var(--border-color);
+}
+
+
+
+.feature-tech {
+    background-color: var(--bgc-black-70);
+}
+
+.feature-tech p {
+    display: inline-block;
+    background-color: #333;
+    font-size: 0.8rem;
+}
+
+.feature-tech h3 {
+    font-size: 2rem;
+}
+
+.feature-tech .btnn {
+    color: var(--color-black-25);
+    border: 1px solid var(--bgc-black-70);
+    border-radius: 10px;
+    background-color: var(--bgc-black-80);
+    transition: .5s;
+}
+
+.feature-tech .btnn:hover {
+    border-color: var(--color-yellow);
+}
+
+.feature-tech .btnn img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.sub-v--2 {
+    border-top: 1px solid var(--border-color);
+}
+
+.videos .btnn {
+    color: var(--color-black-25);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    background-color: var(--bgc-black-70);
+    transition: .5s;
+}
+
+.videos .btnn:hover {
+    border-color: var(--color-yellow);
+}
+
+.videos .btnn img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.videos h3 {
+    font-size: 1.2rem;
+}
+
+.v-p {
+    font-size: 0.9rem;
+    height: 4rem;
+    color: var(--color-black-25);
+}
+
+.section-9 {
+    background-color: var(--bgc-black-70);
+}
+
+.section-9 .rounded-circle {
+    background-color: #FFD11A;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-9 .custom-bordeer {
+    border: 1px solid #1A1A1A;
+}
+
+.section-9.buttonn {
+    cursor: pointer;
+}
+
+.section-9 .custom-bordeer img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.section-9 .text-white-50 {
+    opacity: 0.7;
+}
+
+.section-9 .similar-news .card {
+    background: transparent !important;
+    overflow: hidden;
+    height: 100%;
+}
+
+.section-9 .similar-news .card-img-top {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 9px;
+}
+
+.section-9 .similar-news p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section-9 .iconn {
+    color: rgba(255, 255, 255, 0.233);
+}
+
+
+
+.section-9 .similar-news .card-title {
+    font-size: 15px !important;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.section-9 .similar-news .badgge {
+    background-color: transparent;
+    color: var(--color-black-25);
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.section-9 .similar-news .interaction-count {
+    font-size: 0.85rem;
+}
+
+.section-9 .cardd {
+    background-color: #0f0f0fcb;
+    transition: all .5s;
+}
+
+.section-9 .cardd p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.section-9 .cardd:hover {
+    transform: scale(1.05);
+}
